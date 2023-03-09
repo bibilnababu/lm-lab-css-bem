@@ -39,8 +39,8 @@ img {
   max-width: 300px;
   margin-bottom: 10px;
 }
-
-.card h2 {
+/* Element styles for the paragraphs */
+.card--force--heading {
   margin-top: 0;
 }
 
@@ -55,28 +55,28 @@ img {
   justify-content: space-around;
   margin-top: 30px;
 }
+
+/* applied Media query for screens with a maximum width of 500px */
 @media (max-width: 500px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
+  .container {
+    flex-direction: column;
+    align-items: center;
   }
+}
 
-
-  /* -----activity extention 2----------- */
+/* -----activity extention 2----------- */
 /* block style for button */
-.button{
-font: 1em sans-serif;
+.button {
+  font: 1em sans-serif;
 }
 /*modifier style for button*/
-.button--good{
-    background-color: chartreuse;
+.button--good {
+  background-color: chartreuse;
 }
-.button--danger{
-    background-color: #ed1313;
-
+.button--danger {
+  background-color: #ed1313;
 }
 
-.button--warning{
-    background-color: darkkhaki;
+.button--warning {
+  background-color: darkkhaki;
 }

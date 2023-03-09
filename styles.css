@@ -76,3 +76,7 @@ font: 1em sans-serif;
     background-color: #ed1313;
 
 }
+
+.button--warning{
+    background-color: darkkhaki;
+}

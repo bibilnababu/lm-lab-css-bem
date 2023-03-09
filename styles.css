@@ -72,11 +72,26 @@ img {
 /*modifier style for button*/
 .button--good {
   background-color: chartreuse;
+  color: crimson;
 }
 .button--danger {
   background-color: #ed1313;
+  color: black;
 }
 
 .button--warning {
   background-color: darkkhaki;
+  color: blue;
 }
+
+
+/* trying to add  sassy feature but getting squiggle line under mixins ?  */
+/* @mixin card-force-heading {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+}
+
+.card--force--heading {
+  @include card-force-heading;
+  color: #ffffff;
+} */

@@ -61,3 +61,18 @@ img {
       align-items: center;
     }
   }
+
+
+  /* -----activity extention 2----------- */
+/* block style for button */
+.button{
+font: 1em sans-serif;
+}
+/*modifier style for button*/
+.button--good{
+    background-color: chartreuse;
+}
+.button--danger{
+    background-color: #ed1313;
+
+}
